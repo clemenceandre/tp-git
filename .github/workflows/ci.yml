@@ -18,6 +18,12 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install pylint
+<<<<<<< HEAD
+=======
+        pip install pytest
+    - name: Execute unit test
+      run: pytest 
+>>>>>>> 82bff7f368e406a6155fd35997a7102f36aa9b6f
     - name: Analysing the code with pylint
       run: |
         pylint $(git ls-files '*.py')
