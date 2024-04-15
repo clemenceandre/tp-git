@@ -1,8 +1,8 @@
 #Calculatrice
 
 def addition(a, b):
-  result = a + b
-  return result
+  result1 = a + b
+  return result1
 
 def substraction(a, b):
   result2 = a - b
