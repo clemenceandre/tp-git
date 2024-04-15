@@ -5,3 +5,7 @@ def addition(a, b):
 def substraction(a, b):
   result2 = a - b
   return result2
+
+def division(a, b):
+  result3 = a/b
+  return result3
